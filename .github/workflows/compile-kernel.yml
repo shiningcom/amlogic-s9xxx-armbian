@@ -36,6 +36,14 @@ on:
         required: false
         default: true
         type: boolean
+      kernel_patch:
+    description: "Set the directory for kernel patches"
+    required: true
+    default: "true"
+  auto_patch:
+    description: "Set whether to use kernel patches"
+    required: true
+    default: "true"
       kernel_package:
         description: "Select compile package list"
         required: false
