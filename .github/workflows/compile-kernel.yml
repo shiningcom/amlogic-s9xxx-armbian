@@ -39,7 +39,7 @@ on:
       kernel_patch:
         description: "Set the directory for kernel patches"
         required: true
-        default: "true"
+        default: "compile-kernel/tools/patch"
       kernel_package:
         description: "Select compile package list"
         required: false
